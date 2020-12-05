@@ -50,7 +50,7 @@ function setup() {
     } else {
       gidenler.push(new Giden(random(width), random(height - 300)));
     }
-  }, 55100);
+  }, 7100);
   setInterval(() => {
     background(0, 0, 0, 50);
   }, 1551);
